@@ -1,0 +1,199 @@
+# depslib dependency file v1.0
+1397504926 source:/home/seb/Projets/dev/imprimante3D/slicer/mesh.cpp
+	"mesh.h"
+	<math.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1396822385 /home/seb/Projets/dev/imprimante3D/slicer/mesh.h
+	"OBJFile.h"
+	<string>
+	<vector>
+	<GL/glu.h>
+
+1338747332 /home/seb/Projets/dev/imprimante3D/slicer/OBJFile.h
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+
+1396816292 source:/home/seb/Projets/dev/imprimante3D/slicer/OBJFile.cpp
+	"OBJFile.h"
+	<stdlib.h>
+
+1397508141 source:/home/seb/Projets/dev/imprimante3D/slicer/prefs.cpp
+	<stdlib.h>
+	<stdio.h>
+	"tinyxml2.h"
+	"prefs.h"
+
+1396816767 /home/seb/Projets/dev/imprimante3D/slicer/prefs.h
+	<string>
+	"OBJFile.h"
+
+1397507310 source:/home/seb/Projets/dev/imprimante3D/slicer/slicer.cpp
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<glfw3.h>
+	"prefs.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<string.h>
+	"mesh.h"
+	"unistd.h"
+
+1397504926 source:/home/seb/Projets/dev/imprimante3D/slicer/sources/slicer/mesh.cpp
+	"mesh.h"
+	<math.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1396822385 /home/seb/Projets/dev/imprimante3D/slicer/sources/slicer/mesh.h
+	"OBJFile.h"
+	<string>
+	<vector>
+	<GL/glu.h>
+
+1338747332 /home/seb/Projets/dev/imprimante3D/slicer/sources/slicer/OBJFile.h
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+
+1396816292 source:/home/seb/Projets/dev/imprimante3D/slicer/sources/slicer/OBJFile.cpp
+	"OBJFile.h"
+	<stdlib.h>
+
+1397511426 source:/home/seb/Projets/dev/imprimante3D/slicer/sources/slicer/prefs.cpp
+	<stdlib.h>
+	<stdio.h>
+	"tinyxml2.h"
+	"prefs.h"
+
+1396816767 /home/seb/Projets/dev/imprimante3D/slicer/sources/slicer/prefs.h
+	<string>
+	"OBJFile.h"
+
+1397509990 source:/home/seb/Projets/dev/imprimante3D/slicer/sources/slicer/slicer.cpp
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<glfw3.h>
+	"prefs.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<string.h>
+	"mesh.h"
+	"unistd.h"
+
+1397504926 source:c:\users\seb\documents\projets\slicer\sources\slicer\mesh.cpp
+	"mesh.h"
+	<math.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1396822384 c:\users\seb\documents\projets\slicer\sources\slicer\mesh.h
+	"OBJFile.h"
+	<string>
+	<vector>
+	<GL/glu.h>
+
+1338747332 c:\users\seb\documents\projets\slicer\sources\slicer\objfile.h
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+
+1396816292 source:c:\users\seb\documents\projets\slicer\sources\slicer\objfile.cpp
+	"OBJFile.h"
+	<stdlib.h>
+
+1397673505 source:c:\users\seb\documents\projets\slicer\sources\slicer\prefs.cpp
+	<stdlib.h>
+	<stdio.h>
+	"tinyxml/tinyxml2.h"
+	"prefs.h"
+
+1396816766 c:\users\seb\documents\projets\slicer\sources\slicer\prefs.h
+	<string>
+	"OBJFile.h"
+
+1397513724 source:c:\users\seb\documents\projets\slicer\sources\slicer_test\main_test.cpp
+	<cstdlib>
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<unistd.h>
+
+1397672350 source:c:\users\seb\documents\projets\slicer\sources\slicer\slicer.cpp
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<windows.h>
+	<unistd.h>
+	<glfw3.h>
+	"prefs.h"
+	"tinyxml2.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<string.h>
+	"mesh.h"
+	<tinythread.h>
+
+1128777332 source:c:\users\seb\documents\projets\slicer\sources\slicer\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1128777332 c:\users\seb\documents\projets\slicer\sources\slicer\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1128777332 source:c:\users\seb\documents\projets\slicer\sources\slicer\tinyxml\tinyxml.cpp
+	<ctype.h>
+	"tinyxml.h"
+	<sstream>
+
+1128777332 c:\users\seb\documents\projets\slicer\sources\slicer\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<windows.h>
+	<string>
+	<iostream>
+	"tinystr.h"
+
+1128777332 source:c:\users\seb\documents\projets\slicer\sources\slicer\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1128777332 source:c:\users\seb\documents\projets\slicer\sources\slicer\tinyxml\tinyxmlparser.cpp
+	"tinyxml.h"
+	<ctype.h>
+	<stddef.h>
+
+1396788216 c:\users\seb\documents\projets\slicer\sources\slicer\tinyxml\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cstdarg>
+	<android/log.h>
+	<assert.h>
+
+1396788216 source:c:\users\seb\documents\projets\slicer\sources\slicer\tinyxml\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<cstddef>
+

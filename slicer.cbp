@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="slicer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Unix;Mac;" />
+				<Option output="bin/Debug/slicer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="GL32" />
+					<Add library="GLU32" />
+					<Add library="glfw3" />
+					<Add library="tinyxml2" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Unix;Mac;" />
+				<Option output="bin/Release/slicer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="GL32" />
+					<Add library="GLU32" />
+					<Add library="glfw3" />
+					<Add library="tinyxml2" />
+				</Linker>
+			</Target>
+			<Target title="Release_win">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/slicer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="glfw3" />
+					<Add library="opengl32" />
+					<Add library="GLU32" />
+					<Add library="gdi32" />
+				</Linker>
+			</Target>
+			<Target title="slicer_test">
+				<Option output="bin/Debug/slicer_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="sources/slicer/OBJFile.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer/OBJFile.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer/mesh.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer/mesh.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer/prefs.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer/prefs.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer/slicer.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer/tinyxml/tinystr.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer/tinyxml/tinyxml.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer/tinyxml/tinyxml2.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer/tinyxml/tinyxml2.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="Release_win" />
+		</Unit>
+		<Unit filename="sources/slicer_test/main_test.cpp">
+			<Option target="slicer_test" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

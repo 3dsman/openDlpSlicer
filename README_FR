@@ -1,0 +1,72 @@
+Slicer
+
+Ce programme est composé de deux executables: slicer.exe et slicer_com.exe
+Le programme principal, celui que vous devez lancer, est slicer.exe.
+L'executable slicer_com est un sous programme lancé par le logiciel principal slicer.exe, 
+il n'est pas nécessaire de le lancer vous-même.
+
+Le fichier XML de configuration, créé au premier lancement du logiciel slicer 
+comprend des valeurs par défauts modifiables selont vos paramètres.
+
+Les unitées utilisées sont le millimètre et la seconde.
+
+La navigation au sein de l'interface 3D:
+  
+  - clic gauche rotation de la vue.
+  - clic droit déplacement au sein de la vue.
+  - molette ou clic centrale zoom dézoom.
+  - touche echap pour sortir du logiciel.
+
+Commande de slicing:
+  
+  - La touche espace lance l'impression.
+  - Un nouvel appuis sur la barre espace met le programme en pause.
+
+Des informations sur le deroulement de l'impression s'affichent alors dans la fenêtre dos.
+nouveautées V0.09:
+
+  - passage sous GLFW3 (future gestion du multifenetrage et de quelques autres petites fonctions sympas ;))
+
+  - passage sous tinyxml2 (meilleure gestion memoire)
+
+  - amelioration de la gestion du clavier pendant la phase de slicing
+
+nouveautées V0.08:
+
+  - Correction d'un bug majeur dans l'affichage des slices (sur certaines machines les slices ne s'affichaient pas)
+
+  - Possibilité de choisir dans le fichier de prefs l'exe a utiliser pour la communication avec le materiel
+
+
+nouveautées V0.07_com:
+
+  - Modification du programme slicer_com. 
+    Premiere version du logiciel capable de piloter un moteur en communiquant par le port serie 
+    avec la carte developpée par Hearty. :-)
+
+  - le programme slicer_com accepte maintenant la commande "-infos" de slicer 
+    qui lui indique la slice courante, le nombre total de slice 
+    et le temps d'impression estimé (deplacement moteur non compris)
+
+  - slicer peut maintenant etre mis en pause (barre espace) sur un slice, pour les tests de resine
+
+
+Une nouvelle ligne dans le fichier de pref (<command com="" />) 
+permet d'envoyer des commandes specifiques à l'exe slicer_com à chaque appel. 
+
+Dans le cas de la communication par port serie il permet d'indiquer par exemple 
+le port utilisé et son bitrate.
+
+Cette ligne prendra donc la forme <command com="slicer_arduino -com COM1 -baud 9600" /> 
+
+Pour slicer_arduino vous pouvez y ajouter le parametre "-waittime 7 7 6 7" qui represente respectivement le temp maximum qu'attendra le logiciel pour les etapes init, start, next_slice, et end.
+Ces temps sont en seconde et les valeurs 7 7 6 7 sont celle par default.
+
+-----------------------------------------------------------------------------------------------
+
+Le logiciel est distribué tel que, sans aucune garantie.
+L'auteur ne peut en aucun cas être tenu pour responsable d'un quelconque
+dysfonctionnement ou détérioration de matériel.
+Ce logiciel peut-être copié, redistribué, 
+mais aucunement faire l'objet d'une commercialisation ou autre transaction financière,
+sans l'accord explicite de son auteur. 
